@@ -1,4 +1,4 @@
-import CTA from "../utils/CTA";
+// import CTA from "../utils/CTA";
 
 const WhyUs = () =>{
     return (

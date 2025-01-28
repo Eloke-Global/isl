@@ -27,13 +27,13 @@ const BenefitsList = () => {
     );
 };
 
-const FormInput = () =>{
-    return (
-        <div className="">
-            <input type="text" />
-        </div>
-    )
-}
+// const FormInput = () =>{
+//     return (
+//         <div className="">
+//             <input type="text" />
+//         </div>
+//     )
+// }
 
 const FloatingForm = () =>{
     return (

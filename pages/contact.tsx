@@ -2,33 +2,33 @@ import CTA from "@/components/utils/CTA";
 import PageLayout from "@/layouts/PageLayout";
 import Banner from "../assets/ContactPageBanner.png"
 
-const LOCATIONS = [
-    {
-      state: "Florida",
-      city: "Bonita Springs",
-      address: "28200 Old 41 Rd #208",
-      fullAddress: "Bonita Springs, FL 34135",
-      phone: "(817) 575-6220",
-      link: "https://maps.google.com/?q=28200+Old+41+Rd+%23208+Bonita+Springs+FL+34135"
-    },
-    {
-      state: "Georgia",
-      city: "Atlanta",
-      address: "3565 Piedmont Rd NE",
-      address2: "Building 2, Suite 200",
-      fullAddress: "Atlanta GA 30222",
-      phone: "(404) 551-52222",
-      link: "https://maps.google.com/?q=3565+Piedmont+Rd+NE+Building+2+Suite+200+Atlanta+GA+30222"
-    },
-    {
-      state: "Kansas",
-      city: "Kansas City",
-      address: "12421 W. 151st St., Suite 100",
-      fullAddress: "Olathe, KS 66000",
-      phone: "(325) 221-9900",
-      link: "https://maps.google.com/?q=12421+W.+151st+St.+Suite+100+Olathe+KS+66000"
-    }
-];
+// const LOCATIONS = [
+//     {
+//       state: "Florida",
+//       city: "Bonita Springs",
+//       address: "28200 Old 41 Rd #208",
+//       fullAddress: "Bonita Springs, FL 34135",
+//       phone: "(817) 575-6220",
+//       link: "https://maps.google.com/?q=28200+Old+41+Rd+%23208+Bonita+Springs+FL+34135"
+//     },
+//     {
+//       state: "Georgia",
+//       city: "Atlanta",
+//       address: "3565 Piedmont Rd NE",
+//       address2: "Building 2, Suite 200",
+//       fullAddress: "Atlanta GA 30222",
+//       phone: "(404) 551-52222",
+//       link: "https://maps.google.com/?q=3565+Piedmont+Rd+NE+Building+2+Suite+200+Atlanta+GA+30222"
+//     },
+//     {
+//       state: "Kansas",
+//       city: "Kansas City",
+//       address: "12421 W. 151st St., Suite 100",
+//       fullAddress: "Olathe, KS 66000",
+//       phone: "(325) 221-9900",
+//       link: "https://maps.google.com/?q=12421+W.+151st+St.+Suite+100+Olathe+KS+66000"
+//     }
+// ];
 
 
 const RightSVG = ()=>{
@@ -85,13 +85,13 @@ const OurLocations = ()=>{
     )
 }
 
-const Location = ()=>{
-    return (
-        <div className="bg-red-500">
-            Helloi
-        </div>
-    )
-}
+// const Location = ()=>{
+//     return (
+//         <div className="bg-red-500">
+//             Helloi
+//         </div>
+//     )
+// }
 
 const Locations = () =>{
     return (
