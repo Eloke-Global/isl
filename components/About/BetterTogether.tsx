@@ -1,6 +1,6 @@
 import Img from "../../assets/aboutus/BetterTogether.png"
 
-const PurpleCTA = ({text})=>{
+const PurpleCTA = ({text}:{text:string})=>{
     return (
         <button className="bg-[#7B2CBF] px-6 py-4 text-xs max-w-fit text-white rounded">
             {text}
