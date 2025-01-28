@@ -25,3 +25,12 @@
   font-family: 'Gilroy', sans-serif;
   /* font-weight: 500; */
 }
+
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: #fafafa;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #0A0D31;
+  border-radius: 4px;
+}

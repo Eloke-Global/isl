@@ -31,7 +31,7 @@ const SolutionCard = () =>{
 const Solutions = () =>{
     return (
         <div className="w-full py-16">
-            <div className="max-w-screen-lg mx-auto">
+            <div className="max-w-screen-xl mx-auto">
                 <div className="rounded p-2 text-[10px] max-w-fit font-semibold bg-[#F5F5F5] text-[#5F6567]">
                     HOW WE DO
                 </div>

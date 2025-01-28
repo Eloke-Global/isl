@@ -3,7 +3,7 @@ import CTA from "../utils/CTA";
 const Hero = () =>{
     return (
         <div className="w-full bg-white">
-            <div className="max-w-screen-lg mx-auto py-20 flex items-center flex-col gap-12">
+            <div className="max-w-screen-xl mx-auto py-20 flex items-center flex-col gap-12">
                 <div className="font-bold text-center text-6xl leading-tight text-[#0A0D31]">
                     Transforming Ideas to <br />
                     <span className="text-[#7B2CBF]">

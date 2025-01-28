@@ -1,0 +1,105 @@
+{
+    "caseStudies": [
+      {
+        "id": "maatrum",
+        "slug": "maatrum-real-estate-platform",
+        "project": "Maatrum.com",
+        "sector": "Real Estate",
+        "client": {
+          "name": "Maatrum Technologies and Legal Ventures Private Limited",
+          "location": "Chennai, India",
+          "description": "Maatrum Technologies is an Indian start-up creating an Online Real Estate Title Verification system powered by technology."
+        },
+        "projectDescription": "Client decided to build a real-estate platform to verify the legal health of the property within Tamilnadu. The government of Tamil Nadu has done a fabulous job of digitizing property documents since 1987, which will be extracted digitally on need and used to prepare Maatrum Property Report.",
+        "challenges": "Data extraction and verification from government sources",
+        "solutions": [
+          "Built ease-to-use Public and Admin modules which enables creation of Maatrum Property Report, easy-to-use mobile first UI which enables users to use it from any form factor",
+          "Maatrum helps House owners, buyers & real estate lawyers get legal detailed report hassle-free",
+          "Completely built on AWS leveraging all cloud capabilities including Lambdas, Queing, workflow services",
+          "Complex AI algorithms to download data for a specific property from different sources of government websites, process, collate them to an easily understandable PDF report"
+        ]
+      },
+      {
+        "id": "elisar",
+        "slug": "elisar-health-ophthalmology",
+        "project": "Elisar Health",
+        "sector": "Health Care",
+        "client": {
+          "name": "Dr. Agarwal's Eye Hospital",
+          "location": "Chennai, India",
+          "description": "A pioneer in eye care services for almost six decades, constantly challenge the existing ophthalmic techniques to provide the best to patients. With over 70+ Hospitals across 11 Countries, Dr. Agarwal's Eye Hospitals is the preferred destination for the eye care needs of millions, across the globe."
+        },
+        "projectDescription": "Client decided to build Ophthalmology biomedical devices that are both the global standard and accessible by all. The VFA is a portable head mounted device that tests field of vision. Perimetry test results on VFA are as accurate as those on the current gold standard devices.",
+        "challenges": "Creating medical-grade portable devices",
+        "solutions": [
+          "Built an android based Head Mountable Device, to perform the field analysis, the report generated meets international standards and adheres to the same familiar format as the Humphrey",
+          "There's no learning curve for ophthalmologists, doctors or optometrists",
+          "The light-weight head mounted device allows flexible patient postures, a huge boon to ageing and disabled patients",
+          "The VFA also generates a patient friendly version of the report that helps you explain the diagnosis better",
+          "Elisar will allow to store clinical data along with perimetry and OCT images of each and every case which allows to keep track of all clinical data of patients"
+        ]
+      },
+      {
+        "id": "legislative-management",
+        "slug": "legislative-management-system-minneapolis",
+        "project": "Legislative Management System",
+        "sector": "Legal",
+        "client": {
+          "name": "DataNet - City Council of Minneapolis",
+          "location": "Minneapolis",
+          "description": "As the central and chief policy-making body for the City of Minneapolis, the Council's mission is to provide strong, innovative and effective leadership for the benefit of residents across the city. The Council's central role as a legislative body is to make laws."
+        },
+        "projectDescription": "Migration of huge data from the legacy system to a new ease-to-use legislative system.",
+        "challenges": "Since the data within the system is large and mostly from published html files and word documents or PDF documents, search by public for specific data is extremely slow, dynamic ways required to improve search, download capabilities from public data.",
+        "solutions": [
+          "A combination of Elastic, Lucene based highly scalable, high efficient search and reports created with a 508 compliant Public module built considering Mobile first approach so that the UI can be accessed from any form factor",
+          "Admin module built in a robust scalable approach to handle concurrent users financial activities submission with ease",
+          "Created highly scalable dynamic workflow capabilities within the legislation process"
+        ]
+      },
+      {
+        "id": "legislative-information",
+        "slug": "legislative-information-system-dc",
+        "project": "Legislative Information Management System",
+        "sector": "Legal",
+        "client": {
+          "name": "DataNet - Council of the District of Columbia",
+          "location": "Washington DC",
+          "description": "As the central and chief policy-making body for the District of Columbia, the Council's mission is to provide strong, innovative and effective leadership for the benefit of residents across the city. The Council's central role as a legislative body is to make laws."
+        },
+        "projectDescription": "The legacy system did not allow an easy-to-use law-making experience for the users.",
+        "challenges": "Public search experience has been reported multiple times that it is slower, within the Active Directory file sharing has been laborious, with multiple version of the same file residing with Council users.",
+        "solutions": [
+          "A SharePoint based solution with a Public and Admin module which enables Active Directory Council users to create legislation, laws with ease",
+          "Completely customized 508 compliant Mobile first UI to access from any form factor",
+          "Searching for key words even within a PDF is enabled with a complex Search algorithms built using Lucene Search Indexers"
+        ]
+      },
+      {
+        "id": "e-filing",
+        "slug": "e-filing-campaign-finance",
+        "project": "E-Filing for Campaigns",
+        "sector": "Finance",
+        "client": {
+          "name": "DataNet - Office of Campaign Finance, District of Columbia",
+          "location": "Washington DC",
+          "description": "The Office of Campaign Finance (OCF) regulates the reporting and disclosure of the financial operations and activities of candidates for local office, political committees, political action committees, independent expenditure committees, and the constituent service and statehood fund programs. Established within the District of Columbia Board of Elections, the OCF administers and enforces the campaign finance laws of the District of Columbia."
+        },
+        "projectDescription": "Migration of huge data from the legacy system to a new ease-to-use efiling system.",
+        "challenges": "Since the data within the system is large, search by public for specific data is extremely slow, dynamic ways required to improve search, download capabilities from public reports.",
+        "solutions": [
+          "Lucene based highly scalable, high efficient search and reports created with a 508 compliant Public module built considering Mobile first approach so that the UI can be accessed from any form factor",
+          "Admin module built in a robust scalable approach to handle concurrent users financial activities submission with ease"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalCaseStudies": 5,
+      "sectors": ["Real Estate", "Health Care", "Legal", "Finance"],
+      "companyContact": {
+        "website": "www.inventsoftlabs.com",
+        "phone": "+91-9876543210",
+        "email": "info@inventsoftlabs.com"
+      }
+    }
+  }

@@ -3,7 +3,7 @@ import LogoBg from "../../assets/bg-logo.png"
 const Whatwedo = () =>{
     return (
         <div className="w-full">
-            <div className="max-w-screen-lg mx-auto">
+            <div className="max-w-screen-xl mx-auto">
                 <div className="w-full border-y py-12 flex gap-12 flex-col">
                     <div className="flex">
                         <div className="flex-1">

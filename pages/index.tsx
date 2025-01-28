@@ -5,6 +5,8 @@ import Solutions from "@/components/Home/Solutions";
 import Industries from "@/components/Home/Industries";
 import Tech from "@/components/Home/Tech";
 import SuccessStories from "@/components/Home/SuccessStories";
+import Contactus from "@/components/Home/Contactus";
+import Partners from "@/components/Home/Partners";
 
 const Home = () =>{
     return (
@@ -15,6 +17,8 @@ const Home = () =>{
             <Industries/>
             <Tech/>
             <SuccessStories/>
+            <Contactus/>
+            <Partners/>
         </PageLayout>
     )
 }

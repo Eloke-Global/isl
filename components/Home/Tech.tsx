@@ -1,7 +1,7 @@
 const Tech = () =>{
     return (
         <div className="bg-[#11002C] w-full pt-28 pb-40 text-white">
-            <div className="max-w-screen-lg w-full mx-auto">
+            <div className="max-w-screen-xl w-full mx-auto">
                 <div className="flex gap-5 flex-col">
                     <div className="rounded p-2 text-[10px] max-w-fit bg-[#7B2CBF33]">
                         WHAT WE USE
@@ -20,7 +20,7 @@ const Tech = () =>{
                 </div>
             </div>
             <div className="h-2.5 w-full bg-[#7B2CBF33]"></div>
-            <div className="max-w-screen-lg mx-auto flex pt-[70px] gap-12">
+            <div className="max-w-screen-xl mx-auto flex pt-[70px] gap-12">
                 <div className=" bg-[#7B2CBF33] rounded flex-1 p-6 relative">
                     <div className="absolute bg-[#7B2CBF33] -top-[70px] h-[70px] w-[30px] flex">
                         <div className="flex-1 bg-[#11002C] rounded-tr-lg"></div>
