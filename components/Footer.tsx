@@ -1,7 +1,7 @@
 import Img from "../assets/Footer Right.png"
 import {  Linkedin, Github, Twitter, Facebook, Youtube } from 'lucide-react';
 
-const FooterButton = ({text})=>{
+const FooterButton = ({text}:{text:string})=>{
     return (
         <button className="text-sm max-w-fit">
             {text}

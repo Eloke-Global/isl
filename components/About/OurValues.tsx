@@ -1,3 +1,9 @@
+interface Values{
+    svg:React.FC,
+    title:string,
+    desc:string
+}
+
 const VALUES = [
     {
         svg: ()=>(
@@ -53,7 +59,7 @@ const VALUES = [
     }
 ];
 
-const ValueCard = ({value})=>{
+const ValueCard = ({value}:{value:Values})=>{
     return (
         <div className="flex-1">
             <value.svg/>

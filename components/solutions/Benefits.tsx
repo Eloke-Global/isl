@@ -1,5 +1,10 @@
 import Background from "../../assets/SolutionsBenefitsBG.png"
 
+interface Benefits {
+    title:string,
+    desc:string
+}
+
 const BENEFITS = [
     {
         title: "IT Service for You",
@@ -20,7 +25,7 @@ const BENEFITS = [
 ];
 
 
-const Benefit = ({benefit})=>{
+const Benefit = ({benefit}:{benefit:Benefits})=>{
     return (
         <div className="flex-1 p-2">
             <div className="text-[#0A0D31] text-lg font-semibold flex gap-4">
